@@ -1,0 +1,11 @@
+alias_name: IPGEO2插件
+author: Allen Woo
+author_uri: www.osroom.com/plugin
+plugin_uri: www.osroom.com/plugin
+introduce: 简单的插件, 根据IP地址获取地理位置, 使用到的工具为geoip2
+version: v1.0
+license: BSD-3
+hook_name: ip_geo
+startup_file_name: main.py
+execution_func_name: main
+
