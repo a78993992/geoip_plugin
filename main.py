@@ -5,6 +5,9 @@ import os
 from flask_babel import gettext
 from geoip2.errors import AddressNotFoundError
 
+from apps.core.plug_in.config_process import import_plugin_config
+
+import_plugin_config("geoip_plugin", {})
 curren_path = os.path.abspath(os.path.dirname(__file__))
 __author__ = "Allen Woo"
 
